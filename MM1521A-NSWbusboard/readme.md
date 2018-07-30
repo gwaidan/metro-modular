@@ -1,4 +1,4 @@
-MM1521A busboard project
+# MM1521A busboard project
 
 This busboard is based on the Moraydular wide powerbus available at https://github.com/vaeinoe/moraydular/tree/master/powerbus
 
