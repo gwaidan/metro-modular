@@ -1,6 +1,6 @@
 # Dynamo Motherboard
 
-This is a fork from Pichenettes' Shruthi Digital v08 board at https://github.com/pichenettes/shruthi-1/blob/master/shruthi/hardware_design/pcb/ The Shruthi is a fantastic digital/analog hybrid synthesiser, and this board is the instrument's digital heart.
+This is a fork from Pichenettes' Shruthi Digital v08 board at https://github.com/pichenettes/shruthi-1/blob/master/shruthi/hardware_design/pcb/ The Shruthi is a fantastic digital/analog hybrid synthesiser, and this board is the instrument's digital heart. In line with the original, it is released under a Creative Commons cc-by-sa 3.0 license 
 
 
 <b>v0.95j (initial):</b> This is a "fork of a fork", in that it incorporates the v0.9j mods, with the only difference that it has been modified to fit E-Switch 320.02E11 keyswitches, and so is *not* compatible with the standard TL1100 keyswitch footprint.
