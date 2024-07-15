@@ -1,6 +1,6 @@
 # MidiBud (forked from Pete@kvitek.com)
 
-This is based on the MidiBud available at https://github.com/kvitekp/
+This is based on the MidiBud v0.3 published at https://midisizer.com/about/midibud/
 
 The original is a nifty repurposing of the Mutable MidiPal for desktop experimentation.
 
