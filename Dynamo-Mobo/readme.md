@@ -16,4 +16,6 @@ v0.9j (initial): As the original was well iterated and a mature design, there wa
 
 -less defensive design rules to improve ground plane connectivity (taking into account the improvements in quality of small-batch PCB fab houses such as JLC since 2012);
 
--slightly beefed-up ground plane stitching.
+-slightly beefed-up ground plane stitching;
+
+-move signal via out from under the crystal footprint to permit untented vias.
