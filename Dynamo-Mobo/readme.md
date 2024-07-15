@@ -22,6 +22,6 @@ This is a fork from Pichenettes' Shruthi Digital v08 board at https://github.com
 
 -slightly beefed-up ground plane stitching;
 
--moving a signal via away from the crystal footprint to allow the option of untented vias.
+-moving a signal via away from the crystal footprint to allow the option of untented vias;
 
--removing branding/trademarks and renaming in accordance with Pichenettes' wishes
+-removing branding/trademarks and renaming in accordance with Pichenettes' wishes.
