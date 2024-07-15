@@ -12,7 +12,7 @@ This is a fork from Pichenettes' Shruthi Digital v08 board at https://github.com
 
 -adding holes for locator pegs so that Omron/Alps keyswitches will fit as well as the standard E-Switch TL1100;
 
--pads for an SMD1210 capacitor on the power supply to the display module to attempt to mitigate noise bleedthrough on Vcc from passive matrix OLED units; 
+-pads for an SMD1210 capacitor to attempt to mitigate noise bleedthrough from OLED displays; 
 
 -moving the AVRISP header slightly for better mechanical clearance from the Edit 2 pot; 
 
