@@ -8,14 +8,14 @@ v0.9j (initial): As the original was well iterated and a mature design, there wa
 
 -adding holes for locator pegs so that Omron/Alps keyswitches will fit;
 
--pads for an SMD1210 capacitor on the power supply to the display module to attempt mitigate noise bleedthrough from passive matrix OLED units; 
+-pads for an SMD1210 capacitor on the power supply to the display module to attempt to mitigate noise bleedthrough from passive matrix OLED units; 
 
 -moving the AVRISP header slightly for better mechanical clearance from the Edit 2 pot; 
 
--slotted encoder body tab pads for compatibility with the Bourns PEC11R;
+-slotted encoder body tab pads to fit the Bourns PEC11R series;
 
 -less defensive design rules to improve ground plane connectivity (taking into account the improvements in quality of small-batch PCB fab houses such as JLC since 2012);
 
 -slightly beefed-up ground plane stitching;
 
--move signal via out from under the crystal footprint to permit untented vias.
+-move a signal via out from under the crystal footprint to permit untented vias.
