@@ -1,7 +1,20 @@
 # MidiBud
 
-This is forked from the MidiBud v0.3 published at https://midisizer.com/about/midibud/
+This is forked from the MidiBud v0.3 files published at https://midisizer.com/about/midibud/
 
 The original is a nifty repurposing of the Mutable MidiPal for desktop experimentation.
 
-v0.51j (first public release): To keep it compatible with current free software, it has been ported from EAGLE into KiCad 8, and the design has been tweaked by adding holes for retention pegs to make it compatible with Omron keyswitches, an encoder footprint that handles wider retention tabs, small optimisations to the power supply circuitry, and SMD1206 bypass caps on the micro.
+
+<b>v0.51j (initial release):</b> Changes from the original include:
+
+-fixed a missing trace in the original;
+
+-ported to KiCad 8 from the deprecated EAGLE format;
+
+-retention peg holes added to allow use of Omron/Alps keyswitches as well as the standard E-Switch TL1100;
+
+-encoder footprint with slotted retention tab pads to accommpdate the Bourns PEC11R series;
+
+-moved a redundant input blocking diode to give reverse voltage protection to the 7805;
+
+-SMD1206 bypass caps on the ATMega.
