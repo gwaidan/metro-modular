@@ -3,7 +3,9 @@
 This is a fork from Pichenettes' Shruthi Digital v08 board at https://github.com/pichenettes/shruthi-1/blob/master/shruthi/hardware_design/pcb/ The Shruthi is a fantastic digital/analog hybrid synthesiser, and this board is the instrument's digital heart. In line with the original, it is released under a Creative Commons cc-by-sa 3.0 license. 
 
 
-<b>v0.95j:</b> This is a "fork of a fork", in that it incorporates the v0.9j mods, with the only difference that it has been modified to accommodate E-Switch 320.02E11 keyswitches, and so is *not* compatible with the standard TL1100 keyswitch footprint.
+<b>v0.95j:</b> This is a "fork of a fork", in that it incorporates the v0.9j mods, with the only difference that it has been converted keyswitch footprints to fit the E-Switch 320.02E11. This switch raises the buttons by 3mm and is more expensive, however it has ten times the rated service life of the original TL1100, has gold internal contacts so should avoid intermittent operation issues caused by aging or oxidation, and most importantly has an extended plunger that will mate properly with the friction lock inside TAC keycaps, so keycaps will remain secure and not fall out if you turn the unit upside down! Hurrah!
+
+
 
 
 <b>v0.9j (initial):</b> As the original was a well iterated, well-proven, and mature design, there was not a lot to do. Main changes are: 
