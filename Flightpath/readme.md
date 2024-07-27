@@ -3,7 +3,7 @@
 This is a fork from Pichenettes' Anushri Rev C boards at https://github.com/pichenettes/anushri/tree/master/anu/hardware_design. The Anushri was a rich, modern-sounding VCO monosynth with very responsive digital modulation sources, a hands-on interface, and a unique lo-fi digital drum machine that piloted the subsequent Grids Euro module, all in two circuit boards. In line with the original, it is released under a Creative Commons cc-by-sa 3.0 license. 
 
 
-<b>vDj (initial):</b> Main changes are: 
+<b>Rev Dj (initial):</b> Main changes are: 
 
 -conversion to Kicad v8 from the deprecated EAGLE format;
 
