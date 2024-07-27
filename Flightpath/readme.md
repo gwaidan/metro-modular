@@ -1,19 +1,17 @@
 # Flightpath monosynth
 
-This is a fork from Pichenettes' Anushri Rev C boards at https://github.com/pichenettes/anushri/tree/master/anu/hardware_design. The Anushri was a unique all-analogue signal path VCO monsynth with very responsive digital modulation sources, a hand-on interface, and a unique lo-fi digital drum machine, and this board contains the ATMEGA that directs all the voicecards, as well as UI circuitry and audio output circyuts. The original never got the product iterations it deserved, as Pichenettes was discouraged by the limitations of the AVR architecture, and efforts that were put into a 32-bit version ended up being cannibalised by Mutable's incredibly successful Eurorack modules. In line with the original, it is released under a Creative Commons cc-by-sa 3.0 license. 
+This is a fork from Pichenettes' Anushri Rev C boards at https://github.com/pichenettes/anushri/tree/master/anu/hardware_design. The Anushri was a unique all-analogue signal path VCO monosynth with very responsive digital modulation sources, a hands-on interface, and a unique lo-fi digital drum machine that piloted the subsequent Grids Euro module, all in two circuit boards. In line with the original, it is released under a Creative Commons cc-by-sa 3.0 license. 
 
 
-<b>v1.05j (initial):</b> Main changes are: 
+<b>vDj (initial):</b> Main changes are: 
 
 -conversion to Kicad v8 from the deprecated EAGLE format;
 
--redesigned power supply, converting the original all-linear power supply circuitry, reliant on an external 9VAC source, to a hybrid where incoming 18VDC is subregulated by isolated switcher modules to +/-12V supplies, which are then downregulated by linear regulators to +/-8V, and the 18VDC is regulated by a non-isolated Murata 78SR05 switcher to +5V for digital. This removes the need to chase down an increasingly hard-to-get AC plugpack, replaces it with an external switcher that will work on global supplies, and removes the need for a poorer-performing LM2940 LDO linear reg to derive +8V. The isolated switcher regulators are an industry-standard 12W footprint, which is available from MeanWell and others.
-
 -converting keyswitch footprints to fit the E-Switch 320.02E11. This switch raises the buttons by 3mm and is more expensive, however it has ten times the rated service life of the original TL1100, has gold internal contacts so should avoid intermittent operation issues caused by aging or oxidation, and most importantly has an extended plunger that will mate properly with the friction lock inside TAC keycaps, so keycaps will remain secure and not fall out if you turn the unit upside down! Hurrah!
 
--as the TE SD card reader specified in the original is long obsolete, the footprint has been revised to fit five other currently available models which share the original's signal pin layout, but differ in the position of soldered retention tabs. Along the way, a few spacing errors in the original have been fixed, along with addition of the missing keepout area to stop signal pins in the reader from potentially shorting out against the ground plane.
+-as the through-hole 2N5485 JFET required by the VCO is now obsolete, as are the through-hole verions of recommended substitutes like the J112, a SOT23 surfacemount footprint has been added for those who are confident with soldering and want to avoid the hive of scum and villainy that is aftermarket semiconductor sales on eBay.
 
--output audio jack footprints have added pins to allow the option of the Neutrik NRJ6HF stereo jack-not only is this jack often cheaper and more readily available than the mono NRJ4HF, it also allows for passive line balancing by adding 470R resistors to ground on the individual output ring terminals, and a ground connection on the mix output ring terminal. The footprint is fully back-compatible with the NRJ4HF.
+-jack footprints have added pins to allow the option of the Neutrik NRJ6HF stereo jack-not only is this jack often cheaper and more readily available than the mono NRJ4HF, it also allows for passive line balancing by adding 470R resistors to ground on the individual output ring terminals, and a ground connection on the mix output ring terminal. The footprint is fully back-compatible with the NRJ4HF.
 
 -slotted encoder body tab pads to allow the Bourns PEC11R series;
 
