@@ -17,7 +17,7 @@ This is a fork from Pichenettes' Anushri Rev C boards at https://github.com/pich
 
 -the footprint for the 3.5mm Jackfield connectors has been redone. Due to the tight spacing and need to keep 10mm maximum height, neither of the modern Qingpu jacks commonly used in Eurorack was suitable to replace the Lumberg 1502 03, however the Rev C's footprint had multiple errors, and therefore has been revised. Vertical jack coordinates have been offset by 0.01" to account for the fact that the Rev C case design evidently did so to compensate one of the aforementioned footprint errors (I need paracetamol!);
 
--Rev C's gate and clock I/O go straight to and from the 3.5mm jack matrix from IC15 (CD4050N) without any current limit protection, polarity protection or diode clamping. Given any of these may be connected to Euro equipment with normalled voltages between +12V and -12V, this was a concern. The circuit now specifies a more robust 74HC4050 for IC15, and there are current limit resistors on all four outputs and inputs as further mitigation;
+-Rev C's gate and clock I/O go directly to their 3.5mm jacks from IC15 (CD4050N) without any current limit protection, polarity protection or diode clamping. Given any of these may be connected to Euro equipment with normalled voltages between +12V and -12V, this was a concern. The circuit now specifies a more robust 74HC4050 for IC15, and there are current limit resistors on all four outputs and inputs as further mitigation;
 
 -less defensive design rules to improve ground plane connectivity (taking into account the improvements in quality of small-batch PCB fab houses such as JLC since 2012);
 
