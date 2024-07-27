@@ -9,16 +9,18 @@ This is a fork from Pichenettes' Anushri Rev C boards at https://github.com/pich
 
 -converting keyswitch footprints to fit the E-Switch 320.02E11. This switch raises the buttons by 3mm and is more expensive, however it has ten times the rated service life of the original TL1100, has gold internal contacts so should avoid intermittent operation issues caused by aging or oxidation, and most importantly has an extended plunger that will mate properly with the friction lock inside TAC keycaps, so keycaps will remain secure and not fall out if you turn the unit upside down! Hurrah!
 
--as the through-hole 2N5485 JFET required by the VCO is now obsolete, as are the through-hole verions of recommended substitutes like the J112, a SOT23 surfacemount footprint has been added for those who are confident with soldering and want to avoid the hive of scum and villainy that is aftermarket semiconductor sales on eBay.
+-as the through-hole 2N5485 JFET required by the VCO is now obsolete, as are the through-hole verions of recommended substitutes like the J112, a SOT23 surfacemount footprint has been added for those who are confident with soldering and want to avoid the hive of scum and villainy that is aftermarket semiconductor sales on eBay;
 
--jack footprints have added pins to allow the option of the Neutrik NRJ6HF stereo jack-not only is this jack often cheaper and more readily available than the mono NRJ4HF, it also allows for passive line balancing by adding 470R resistors to ground on the individual output ring terminals, and a ground connection on the mix output ring terminal. The footprint is fully back-compatible with the NRJ4HF.
+-the drum output in Rev C has a very simple passive RC filter turning over at about 15k, with significant passband droop starting well below 10k. When the drum output is isolated via the 3.5mm jack, this passive filter is directly loaded by the destination's input impedance, so that low impedance loads can affect its response. To get around this a, a new IC25 dual opamp has been added, half of which implements an active 2-pole Butterworth filter with a flat passband up to a "hard knee" at about 10kHz, and fast rolloff thereafter with buffered output thru a 470R limit resistor. The "spare half" of IC25 is used to buffer the master volume pot's output, again so it will not be loaded down by low impedance mixer or audio interface inputs;
 
--slotted encoder body tab pads to allow the Bourns PEC11R series;
+-main jack footprints have added pins to allow the option of the Neutrik NRJ6HF stereo jack-not only is this jack often cheaper and more readily available than the mono NRJ4HF, it also allows for passive line balancing by adding a 470R resistor to ground on the main output ring terminal. The footprints are fully back-compatible with the NRJ4HF;
 
--less defensive design rules to improve ground plane connectivity (taking into account the improvements in quality of small-batch PCB fab houses such as JLC since 2012);
+-the footprint for the 3.5mm Jackfield connectors has been redone. Due to the tight spacing and need to keep 10mm maximum height, neither of the modern Qingpu jacks commonly used in Eurorack was suitable to replace the Lumberg 1502 03, however the original footprint had multiple errors, and therefore has been revised. Vertical jack coordinates have been offset by 0.01" to account for the fact that the Rev C case design evidently did so to accommodate one of the footprint errors (I need paracetamol);
+
+-Rev C's gate and clock I/O go straight to and from the 3.5mm jack matrix from IC15 (CD4050N) without any protection current limit, polarity protection or diode clamping. Given any of these may be connected to Euro equipment with normalled voltages between +12V and -12V, this is a concern. The circuit now specifies a more robust 74HC4050 for IC15, and there are current limit resistors on all four outputs and inputs as further mitigation;
+
+-less defensive design rules to improve ground plane connectivity (taking into account the improvements in quality of small-batch PCB fab houses such as JLC since 2012), and ground planes now on both sides of the component board;
 
 -slightly beefed-up ground plane stitching;
-
--specifying and labelling a 74HC4050 for IC3 rather than CD4050, to try and improve SD card performance;
 
 -removing branding/trademarks and renaming in accordance with Pichenettes' wishes.
