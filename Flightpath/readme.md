@@ -7,7 +7,7 @@ This is a fork from Pichenettes' Anushri Rev C boards at https://github.com/pich
 
 -conversion to Kicad v8 from the deprecated EAGLE format;
 
--converting keyswitch footprints to fit the E-Switch 320.02E11. This switch raises the buttons by 3mm and is more expensive, however it has ten times the rated service life of the original TL1100, has gold internal contacts so should avoid intermittent operation issues caused by aging or oxidation, and most importantly has an extended plunger that will mate properly with the friction lock inside TAC keycaps, so keycaps will remain secure and not fall out if you turn the unit upside down! Hurrah!
+-converting keyswitch footprints to fit the E-Switch 320.02E11. This switch raises the buttons by 3mm and is more expensive, however it has ten times the rated service life of the original TL1100, has gold internal dome contacts so should avoid intermittent operation issues caused by ageing or environmental oxidation, and most importantly has an extended plunger that will mate properly with the friction lock inside TAC keycaps, so keycaps will remain secure and not fall out if you turn the unit upside down! Hurrah!
 
 -as the through-hole 2N5485 JFET required by the VCO is now obsolete, as are the through-hole versions of recommended substitutes like the J112, a SOT23 surfacemount footprint has been added for those who are confident with soldering and want to avoid the hive of scum and villainy that is aftermarket semiconductor sales on eBay;
 
