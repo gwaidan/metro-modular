@@ -12,8 +12,8 @@ This is a fork from Pichenettes' Ambika SMR Voicecard at https://github.com/pich
 
 -replacing the LM13700N footprints with surfacemount LM13700M equivalents. A hard call, but the thru-hole version is now out of production by TI (it was discontinued by JRC years ago) and Mouser now charge a premium for them, which they can afford to do as they hold the last remaining stocks anywhere. Given the availability situation, the additional expense of 18 parts across a full voicecard set, plus the fact that the Ambika was always intended for advanced builders, it made sense to go surfacemount for this part. Plus SO-16 is pretty easy, especially in this layout (hint: solder them before anything else);
 
--output audio jack footprints have added pins to allow the option of the Neutrik NRJ6HF stereo jack-not only is this jack often cheaper and more readily available than the mono NRJ4HF, it also allows for passive line balancing by adding 470R resistors to ground on the individual output ring terminals, and a ground connection on the mix output ring terminal. The footprint is fully back-compatible with the NRJ4HF.
-
 -some tweaking of layout to reduce trace lengths and eliminate signal vias where possible;
+
+-adding a location marker to keep JLCPCB production batch numbers hidden out of sight;
 
 -removing branding/trademarks and renaming in accordance with Pichenettes' wishes.
