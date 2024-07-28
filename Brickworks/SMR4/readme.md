@@ -1,6 +1,5 @@
 # Brickworks SMR4 Voicecard
-This is a fork from Pichenettes' Ambika SMR Voicecard at https://github.com/pichenettes/ambika/tree/master/controller/hardware_design. With a raw, Roland-y sound, this was generally agreed by users' as the best of the original three voicecards released for the Ambika. 
-
+This is a fork from Pichenettes' Ambika SMR Voicecard at https://github.com/pichenettes/ambika/tree/master/controller/hardware_design. With a raw, Roland-y sound, this was generally agreed by users' as the best of the original three voicecards released for the Ambika.  In line with the original, it is released under a Creative Commons cc-by-sa 3.0 license. 
 
 <b>v0.51j (initial):</b> Main changes are: 
 
