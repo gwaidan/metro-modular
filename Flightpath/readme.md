@@ -15,7 +15,7 @@ This is a fork from Pichenettes' Anushri Rev C boards at https://github.com/pich
 
 -main jack footprints have added pins to allow the option of the Neutrik NRJ6HF stereo jack-not only is this jack often cheaper and more readily available than the mono NRJ4HF, it also allows for passive output line balancing by adding a 470R resistor to ground on the main output ring terminal. The footprints are fully back-compatible with the NRJ4HF;
 
--the footprint for the 3.5mm jackfield connectors has been redone. Due to the tight spacing and need to keep 10mm maximum height, neither of the modern Qingpu jacks commonly used in Eurorack was suitable to replace the Lumberg 1502 03, however Rev C's 1502 03 footprint had multiple errors, and has therefore been revised. Vertical jack coordinates have been offset by 0.01" to account for the fact that the Rev C case design evidently did so to compensate one of the aforementioned footprint errors (I need paracetamol!);
+-the footprint for the 3.5mm jackfield connectors has been redone. Due to the tight spacing and need to keep 10mm maximum height, neither of the modern Qingpu jacks commonly used in Eurorack was suitable to replace the Lumberg 1502 03, however Rev C's 1502 03 footprint had multiple errors, and has therefore been revised. Vertical jack coordinates have been offset by 0.01" to account for the fact that the Rev C case and Euro panel designs evidently did so to compensate one of the aforementioned footprint errors (I need paracetamol!);
 
 -Rev C's gate and clock I/O go directly to their respective 3.5mm jacks from IC15 (CD4050N) without any addtional current limit protection, polarity protection or diode clamping. Given any of these may be connected to Euro equipment with normalled voltages between +12V and -12V, this was a concern. I may be paranoid, but the circuit now specifies a more robust 74HC4050 for IC15, and there are current limit resistors on all four outputs and inputs as further mitigation;
 
@@ -24,5 +24,7 @@ This is a fork from Pichenettes' Anushri Rev C boards at https://github.com/pich
 -slightly beefed-up ground plane stitching, and the component board now has ground pours on both sides;
 
 -adding a location marker to keep JLCPCB production batch numbers hidden out of sight;
+
+-polarity stripe marker on the Euro power header
 
 -removing branding/trademarks and renaming in accordance with Pichenettes' wishes.
