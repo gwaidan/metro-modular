@@ -6,7 +6,7 @@ This is a fork from Pichenettes' Ambika SMR Voicecard at https://github.com/pich
 
 -conversion to Kicad v8 from the deprecated EAGLE format;
 
--addition of an additional trimmer and associated circuitry to adjust central tune point as well as v/oct span. This permits much better matching between voicecards to avoid "voice cycling" artifacts, as well as moving parts around and reversing the TL084P to better accommodate it;
+-addition of an additional trimmer and associated circuitry to adjust central tune point as well as V/oct span, as well as moving parts around and reversing the TL084P to better accommodate it. This permits much better matching between voicecards to avoid "voice cycling" artifacts;
 
 -adding an (optional) inexpensive dual matched SOT363 transistor footprint to replace the dual 2N3906 filter OTA drivers, for advanced solderhounds;
 
