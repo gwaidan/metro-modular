@@ -23,4 +23,6 @@ This is a fork from Pichenettes' Anushri Rev C boards at https://github.com/pich
 
 -slightly beefed-up ground plane stitching, and the component board now has ground pours on both sides;
 
+-adding a location marker to keep JLCPCB production batch numbers hidden out of sight;
+
 -removing branding/trademarks and renaming in accordance with Pichenettes' wishes.
