@@ -23,4 +23,6 @@ This is a fork from Pichenettes' Ambika Motherboard v09 board at https://github.
 
 -specifying and labelling a 74HC4050 for IC3 rather than the slow CD4050, to try and improve SD card performance;
 
+-adding a location marker to keep JLCPCB production batch numbers hidden out of sight;
+
 -removing branding/trademarks and renaming in accordance with Pichenettes' wishes.
