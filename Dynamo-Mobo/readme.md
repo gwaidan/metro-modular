@@ -26,4 +26,6 @@ This is a fork from Pichenettes' Shruthi Digital v08 board at https://github.com
 
 -moving a signal via away from the crystal footprint to allow the option of untented vias;
 
+-adding a location marker to keep JLCPCB production batch numbers hidden out of sight;
+
 -removing branding/trademarks and renaming in accordance with Pichenettes' wishes.
