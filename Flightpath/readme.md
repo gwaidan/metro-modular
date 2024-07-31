@@ -3,6 +3,14 @@
 This is a fork from Pichenettes' Anushri Rev C boards at https://github.com/pichenettes/anushri/tree/master/anu/hardware_design. The Anushri was a rich, modern-sounding VCO monosynth with very responsive digital modulation sources, a hands-on interface, and a unique lo-fi digital drum machine that piloted the subsequent Grids Euro module, all in two circuit boards. It is fully compatible with the enclosure designs and software of the original. In line with the original, it is released under a Creative Commons cc-by-sa 3.0 license. 
 
 
+<b>Rev Ej (component board only):</b> Main changes are: 
+
+-addition of diode to protect the 2164 in case of negative rail dropout;
+
+-addtional resistor position and silkscreen key to allow setting the operating point of the VCO to suit "modern" flavours of 2164 ie AS2164 and SSI2164
+
+-changing the LM13700 to a surfacemount footprint
+
 <b>Rev Dj (initial):</b> Main changes are: 
 
 -conversion to Kicad v8 from the deprecated EAGLE format;
