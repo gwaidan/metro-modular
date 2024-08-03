@@ -11,6 +11,8 @@ This is a fork from Pichenettes' Anushri Rev C boards at https://github.com/pich
 
 -replacing the LM13700N footprint with surfacemount LM13700M. A hard call, but the thru-hole version is now out of production by TI (it was discontinued by JRC years ago) and Mouser now hold the last remaining verifiably-legit stocks anywhere, and probably not for long. Hey, you're going to have to surfacemount the JFET anyway, and SO-16 is a lot easier. (hint: solder the LM13700M first to warm up, then the JFET, then do everything else);
 
+-adding SOT23 footprints for the three LM4040 positions to give choice of through hole or surface mount parts.
+
 <b>Rev Dj (initial):</b> Main changes are: 
 
 -conversion to Kicad v8 from the deprecated EAGLE format;
