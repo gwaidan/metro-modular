@@ -9,7 +9,7 @@ This is a fork from Pichenettes' Anushri Rev C boards at https://github.com/pich
 
 -addtional resistor position and silkscreen key to allow setting the operating point of the VCO to suit "modern" flavours of 2164 ie AS2164 and SSI2164;
 
--adding SOT23 footprints for the three LM4040 positions to give choice of through hole or surface mount parts.
+-adding SOT23 footprints for the three LM4040 positions to give the choice of through hole or surface mount parts;
 
 -replacing the LM13700N footprint with surfacemount LM13700M. A hard call, but the thru-hole version is now out of production by TI (it was discontinued by JRC years ago) and Mouser now hold the last remaining verifiably-legit stocks anywhere, and probably not for long. Hey, you're going to have to surfacemount the JFET anyway, and SO-16 is a lot easier. (hint: solder the LM13700M first to warm up, then the JFET and other SOT23s, then do everything else);
 
