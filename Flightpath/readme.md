@@ -13,6 +13,8 @@ This is a fork from Pichenettes' Anushri Rev C boards at https://github.com/pich
 
 -replacing the LM13700N footprint with surfacemount LM13700M. A hard call, but the thru-hole version is now out of production by TI (it was discontinued by JRC years ago) and Mouser now hold the last remaining verifiably-legit stocks anywhere, and probably not for long. Hey, you're going to have to surfacemount the JFET anyway, and SO-16 is a lot easier. (hint: solder the LM13700M first to warm up, then the JFET and other SOT23s, then do everything else).
 
+-some additional layout tweaks.
+
 <b>Rev Dj (initial):</b> Main changes are: 
 
 -conversion to Kicad v8 from the deprecated EAGLE format;
@@ -31,7 +33,7 @@ This is a fork from Pichenettes' Anushri Rev C boards at https://github.com/pich
 
 -less defensive design rules to improve ground plane connectivity (taking into account the improvements in quality of small-batch PCB fab houses such as JLC since 2012);
 
-the component board now has ground pours on both sides, with ground plane stitching;
+-the component board now has ground pours on both sides, with ground plane stitching;
 
 -adding a location marker on both boards to keep JLCPCB production batch numbers from contaminating aesthetics;
 
