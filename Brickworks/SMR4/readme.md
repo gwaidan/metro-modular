@@ -13,6 +13,6 @@ This is a fork from Pichenettes' Ambika SMR4 Voicecard at https://github.com/pic
 
 -some tweaking of layout to reduce trace lengths and eliminate signal vias where possible;
 
--adding a location marker to keep JLCPCB production batch numbers hidden out of sight;
+-adding a location marker to prevent JLCPCB production batch numbers from corrupting aesthetics;
 
 -removing branding/trademarks and renaming in accordance with Pichenettes' wishes.
