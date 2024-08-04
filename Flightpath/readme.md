@@ -5,11 +5,11 @@ This is a fork from Pichenettes' Anushri Rev C boards at https://github.com/pich
 
 <b>Rev Ej (changes on component board only):</b> Main changes are: 
 
--addition of reverse-biased Schottky diode on negatove rail to protect the 2164 in case of negative rail dropout;
+-add reverse-biased Schottky diode on negative rail to protect the 2164 in case of negative rail dropout;
 
--addressing the risk of reversed Euro power by moving the (positive) input polarity protection diode to after the Euro +12V input, and adding a polarity protection diode on Euro -12V input;
+-address the risk of reversed Euro power by moving the (positive) input polarity protection diode to after the Euro +12V input, and adding a polarity protection diode on Euro -12V input;
 
--addtional resistor position and silkscreen key to allow setting the operating point of the VCO to suit "modern" flavours of 2164 ie AS2164 and SSI2164;
+-additional resistor position and silkscreen key to set the bias point of the VCO to suit "modern" flavours of 2164 ie AS2164 and SSI2164;
 
 -adding SOT23 footprints for the three LM4040 positions to give the choice of through hole or surface mount parts;
 
