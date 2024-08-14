@@ -5,7 +5,9 @@ This is a fork from Pichenettes' Shruthi Digital v08 board at https://github.com
 
 <b>v0.95j:</b> This version has changed the keyswitch footprints to fit the E-Switch 320.02E11, and is not compatible with the keyswitches that fit v0.9j or earlier. This switch raises the buttons by 3mm and is more expensive, however it has ten times the rated service life of the original TL1100, has gold internal contacts so should avoid intermittent operation issues caused by aging or oxidation, and most importantly has an extended plunger that will mate properly with the friction lock inside TAC keycaps, so keycaps will remain secure and not fall out if you turn the unit upside down! Hurrah!
 
+-added R17 aka the missing 220R resistor on the UART side of the MIDI out jack.
 
+-updated the MIDI jack connections to the 2014 MIDI 1.1 standard, by grounding the shell connection on the output jack, and connectimg the shell and ground at the input jack to ground via 100n capacitors that remove RFI but block audio ground loop hum.
 
 
 <b>v0.9j (initial):</b> As the original was a well iterated, well-proven, and mature design, there was not a lot to do. Main changes are: 
