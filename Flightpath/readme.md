@@ -13,7 +13,9 @@ This is a fork from Pichenettes' Anushri Rev C boards at https://github.com/pich
 
 -adding SOT23 footprints for the three LM4040 positions to give the choice of through hole or surface mount parts;
 
--replacing the LM13700N footprint with surfacemount LM13700M. A hard call, but the thru-hole version is now out of production by TI (it was discontinued by JRC years ago) and Mouser now hold the last remaining verifiably-legit stocks anywhere, and probably not for long. Hey, you're going to have to surfacemount the JFET anyway, and SO-16 is a lot easier. (hint: solder the LM13700M first to warm up, then the JFET and other SOT23s, then do everything else).
+-replacing the LM13700N footprint with surfacemount LM13700M. A hard call, but the thru-hole version is now out of production by TI (it was discontinued by JRC years ago) and Mouser now hold the last remaining verifiably-legit stocks anywhere, and probably not for long. Hey, you're going to have to surfacemount the JFET anyway, and SO-16 is a lot easier. (hint: solder the LM13700M first to warm up, then the JFET and other SOT23s, then do everything else);
+
+-updated the MIDI jack connections to the 2014 MIDI 1.1 standard, by grounding the shell connection on the output jack, and connecting the shell and ground at the input jack to ground via 100n capacitors that remove RFI but block audio ground loop hum;
 
 -some additional layout tweaks, especially to power section.
 
