@@ -9,7 +9,7 @@ This is a fork from Pichenettes' Ambika Motherboard v09 board at https://github.
 
 -redesigned power supply, converting the original all-linear power supply circuitry, reliant on an external 9VAC source, to a hybrid where incoming 18VDC is subregulated by switcher modules to +/-12V supplies, which are then downregulated by linear regulators to +/-8V, and the 18VDC is also regulated by a non-isolated Murata 78SR05 switcher down to +5V for digital. This removes the need to chase down an increasingly hard-to-get AC-output plugpack, replaces it with an external switcher that will work on global supplies, and removes the need for a poorer-performing LM2940 LDO linear reg to derive +8V. The isolated switcher regulators are an industry-standard 6W footprint, which is available from MeanWell and Advanced Energy/Artesyn, with the option of a high-efficiency, lower cost 78SR12 switcher for the positive supply.
 
--add keepout area underneath the negative regulator's heatsink, as the 7908's tab is at -12V potential and is in contact with the (metal) heatsink;
+-add ground plane keepout area underneath the negative regulator's heatsink, as the 7908's heat spreader tab is at -12V potential and is in contact with the (metal) heatsink;
 
 -converting keyswitch footprints to fit the E-Switch 320.02E11. This switch raises the buttons by 3mm and is more expensive, however it has ten times the rated service life of the original TL1100, has gold internal contacts which should avoid intermittent operation issues caused by aging or enviromental oxidation, and most importantly has an extended plunger that will mate properly with the friction lock inside TAC keycaps, so keycaps will remain secure and not fall out if you turn the unit upside down! Hurrah!
 
