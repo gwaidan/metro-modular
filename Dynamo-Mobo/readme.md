@@ -7,7 +7,7 @@ This is a fork from Pichenettes' Shruthi Digital v08 board at https://github.com
 
 -added R17 aka the "missing" 220R resistor on the UART side of the MIDI out jack. (this was missing in the original design, and is needed to balance the MIDI signal)
 
--updated the MIDI jack connections to the 2014 MIDI 1.1 standard, by grounding the shell connection on the output jack, and connecting the shell and ground at the input jack to ground via 100n capacitors that remove RFI but block audio ground loop hum.
+-updated the MIDI jack connections in line with the 2014 CA-033 revision of the MIDI 1.0 standard, by grounding the shell connection on the output jack, and connecting the shell and ground at the input jack to ground via 100n capacitors that remove RFI but block audio ground loop hum.
 
 
 <b>v0.9j (initial):</b> As the original was a well iterated, well-proven, and mature design, there was not a lot to do. Main changes are: 
