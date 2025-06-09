@@ -19,7 +19,7 @@ This is a fork from Pichenettes' Ambika Motherboard v09 board at https://github.
 
 -slotted encoder body tab pads to allow the metal-shaft Bourns PEC11R series;
 
--updated the MIDI jack connections to the 2014 MIDI 1.1 standard, by grounding the shell connection on the output jack, and connecting the shell and ground at the input jack to ground via 100n capacitors that remove RFI but block audio ground loop hum;
+-updated the MIDI jack connections in line with the 2014 CA-033 revision of the MIDI 1.0 standard, by grounding the shell connection on the output jack, and connecting the shell and ground at the input jack to ground via 100n capacitors that remove RFI but block audio ground loop hum;
 
 -less defensive design rules to improve ground plane connectivity (taking into account the improvements in quality of small-batch PCB fab houses such as JLC since 2012);
 
