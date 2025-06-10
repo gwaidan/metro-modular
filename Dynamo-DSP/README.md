@@ -9,7 +9,7 @@ This is a fork from Pichenettes' Shruthi DSP board. This is an ultra lowfi board
 
 -change jack footprints for jacks to stereo versions (fully backwards compatible with mono jacks) to allow wider choice of jacks;
 
--optional circuitry connected to the output jack ring connection to allow for passive balancing; 
+-optional circuitry connected to the output jack ring connection to allow for passive balanced output; 
 
 -isolate the digital ground from the analogue ground back to a defined star point at the power inlet; 
 
