@@ -3,7 +3,7 @@
 This is a fork from Pichenettes' Shruthi DSP board. This is an ultra lowfi board that uses an Arduino-class processor to give funky digital filtering and effects processing. It is fully compatible with the enclosure designs and software of the original. In line with the original, it is released under a Creative Commons cc-by-sa 3.0 license. 
 
 
-<b>v0.9j (initial):</b> Main changes are: 
+<b>v0.41j (initial):</b> Main changes are: 
 
 -conversion to Kicad v9 from the deprecated EAGLE format;
 
