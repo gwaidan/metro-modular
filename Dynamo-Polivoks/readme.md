@@ -11,7 +11,7 @@ This is a fork from Pichenettes' Polivoks filter board at https://github.com/pic
 
 -optional circuitry connected to the output jack ring connection to allow for passive balanced output with NMJ6HFD2 stereo jack; 
 
--based on my experience designing the Steel Falcon VCF, programmable power opamps are very sensitive to noise at low drive current (ie low frequency), and the original of this design was no exception-therefore the CV summer/driver and expos converter transistor driver have been moved to IC4 to minimise trace lengths; 
+-based on my experience designing the Steel Falcon VCF, programmable power opamps are very sensitive to noise at low drive current (ie low frequency), and the original of this design was no exception-therefore the CV summer/driver and expos converter transistor driver have been moved to IC4 to minimise trace lengths to the LM4250s; 
 
 -general layout tweaks;
 
