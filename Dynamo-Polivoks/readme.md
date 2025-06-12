@@ -1,6 +1,6 @@
-# Polivoks DSP daughterboard
+# Dynamo Polivoks filter daughterboard
 
-This is a fork from Pichenettes' Polivoks filter board at https://github.com/pichenettes/shruthi-1/tree/master/shruthi/hardware_design/pcb. This is an adaptation of Marc Bareille's take on the classic Soviet programmable-power multimpde opamp filter, that Pichenettes turned out during her insane burst of creativity from 2010 to 2014, and never iterated past the first v0.1. It is fully compatible with the enclosure designs and connectivity of the original. In line with the original, it is released under a Creative Commons cc-by-sa 3.0 license. 
+This is a fork from Pichenettes' Polivoks filter board at https://github.com/pichenettes/shruthi-1/tree/master/shruthi/hardware_design/pcb. This is an adaptation of Marc Bareille's take on the classic Soviet programmable-power multimpde opamp filter, that Pichenettes turned out during her insane burst of creativity from 2010 to 2014, and never iterated past the first v0.1 release. It is fully compatible with the enclosure designs and connectivity of the original. In line with the original, it is released under a Creative Commons cc-by-sa 3.0 license. 
 
 
 <b>v0.2j (initial):</b> Main changes are: 
