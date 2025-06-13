@@ -2,7 +2,7 @@
 
 This is forked from the MidiAlf v0.2 files originally published at https://midisizer.com/midialf/
 
-The original used Mutable Intrumentshardware design elements to create a neat desktop MIDI pattern sequaencer with storage memory, that could be expanded with CV outputs. In line with the original, it is released under a Creative Commons cc-by-sa license.
+The original used Mutable Intruments hardware design elements to create a neat desktop MIDI pattern sequaencer with storage memory, that could be expanded with CV outputs. In line with the original, it is released under a Creative Commons cc-by-sa license.
 
 
 <b>v0.3j (initial release):</b> Changes from the original include:
