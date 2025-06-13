@@ -9,7 +9,7 @@ This is a fork from Pichenettes' Ambika SMR4 Voicecard at https://github.com/pic
 
 -adding an extra footprint for an (optional) inexpensive dual matched SOT363 transistor instead of the dual 2N3906 filter OTA drivers, for advanced solderhounds;
 
--replacing the LM13700N footprints with surfacemount LM13700M equivalents. A hard call, but the thru-hole version is now out of production by TI (it was discontinued by JRC years ago) and Mouser now charge a premium for them, which they can get away with as they hold the last remaining stocks anywhere. Given the availability situation, the additional expense of 18 parts across a full voicecard set, plus the fact that the Ambika was always intended for advanced builders, it made sense to go surfacemount for this part. Plus SO-16 is pretty easy, especially in this layout (hint: solder them before anything else);
+-replacing the LM13700N footprints with surfacemount LM13700M equivalents. A hard call, but the thru-hole version is now out of production by TI (it was discontinued by JRC years ago) and Mouser now charge a premium for them, which they can get away with as they hold the last remaining verified legit stocks anywhere. Given the availability situation, the additional expense of 18 parts across a full voicecard set, plus the fact that the Ambika was always intended for advanced builders, it made sense to go surfacemount for this part. Plus SO-16 is pretty easy, especially in this layout (hint: solder them before anything else);
 
 -some tweaking of layout to reduce trace lengths and eliminate signal vias where possible;
 
