@@ -25,7 +25,7 @@ This is a fork from Pichenettes' Ambika Motherboard v09 board at https://github.
 
 -slightly beefed-up ground plane stitching;
 
--specifying and labelling a 74HC4050 for IC3 rather than the slower CD4050, to improve SD card performance;
+-specifying and labelling a 74HC4050 for IC3 rather than the slower CD4050, which is a known fix to improve SD card performance;
 
 -adding a location marker to keep JLCPCB production batch numbers hidden out of sight;
 
