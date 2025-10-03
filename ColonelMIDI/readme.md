@@ -11,7 +11,7 @@ This is an updated take on the nILS GM5x5x5 multiport implementation of the Poly
 
 -zener diodes to protect USB data lines against over/reverse voltage; 
 
--modern SOT236 high-current CMOS schmitt trigger buffers for LED driving and buffering; 
+-modern SOT236 high-current CMOS schmitt trigger buffers for LED driving and signal buffering; 
 
 -LEDs located directly in front of the ports they indicate; 
 
@@ -29,4 +29,4 @@ This is an updated take on the nILS GM5x5x5 multiport implementation of the Poly
 
 <b>v0.12 (first publication):</b> 
 
--use "spare" gates in input LED drivers to buffer 6N137 optocoupler outputs;
+-use "spare" gates in input-side LED drivers to buffer 6N137 optocoupler outputs;
