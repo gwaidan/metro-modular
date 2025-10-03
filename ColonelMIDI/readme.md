@@ -25,8 +25,8 @@ This is an updated take on the nILS GM5x5x5 multiport implementation of the Poly
 
 <b>v0.11:</b> 
 
--fix incorrect port labelling on LED side of board;
+-fix incorrect port labelling on LED side of board
 
 <b>v0.12 (first publication):</b> 
 
--use "spare" gates in input-side LED drivers to buffer 6N137 optocoupler outputs;
+-use "spare" gates in input-side LED drivers to buffer 6N137 optocoupler outputs
