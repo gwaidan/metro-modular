@@ -1,4 +1,4 @@
-# ColonelMIDI Multiport USB-MIDI Interface
+# ColonelMIDI 5x5 Port USB-MIDI Interface
 
 This is an updated take on the nILS GM5x5x5 multiport implementation of the Polytec GM5 reference board, based around an Atmel AT90USB processor with preloaded custom firmware. Although it uses the published mechanical dimensions of the GM5x5x5, it is effectively a new circuit design that improves in many respscts on both the reference board and the GM5x5x5, with care taken to return to datasheets to ensure that part values are compatible with specifications.
 
