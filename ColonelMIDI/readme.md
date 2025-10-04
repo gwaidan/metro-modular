@@ -7,13 +7,17 @@ This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm
 
 -usage of Kicad v9 rather than the deprecated EAGLE format;
 
--reverse voltage proection Schottky diode;
+-reverse voltage proection Schottky diode on Vcc;
 
 -zener diodes to protect USB data lines against over/reverse voltage; 
 
--modern SOT236 high-current CMOS schmitt trigger buffers for LED driving and signal buffering; 
+-modern SOT236 high-current CMOS schmitt triggers for LED driving and signal buffering; 
 
 -LEDs located directly in front of the ports they indicate; 
+
+-updated the MIDI jack connections in line with the 2014 CA-033 revision of the MIDI 1.0 standard, by grounding the shell connections on output jacks, and connecting the shell and ground at the input jack to ground via 100n capacitors that remove RFI but block audio ground loop hum;
+
+-connecting the shell of the USB jack to ground via 100n capacitor that removes RFI but block audio ground loop hum;
 
 -6-pin AVRISP port added for those who might want to program their own firmware from scratch on a blank chip;
 
