@@ -17,11 +17,13 @@ This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm
 
 -6-pin AVRISP port added for those who might want to program their own firmware from scratch on a blank chip;
 
--GM5x5x5 options for external power and for configuring the number of ports downwards are not ncluded, as this is intended as a standalone device rather than a legacy "MIDIbox module"
+-GM5x5x5 option for external power and guidance for reducing the number of ports are not included, as this is intended as a standalone "full-function" device rather than an embedded submodule;
 
 -adding a location marker to keep JLCPCB production batch numbers hidden out of sight;
 
--tidied-up board layout with ground planes both sides
+-tidied-up board layout with ground planes both sides;
+
+-cc-by-sa licensing with no restrictions on use
 
 <b>v0.11:</b> 
 
