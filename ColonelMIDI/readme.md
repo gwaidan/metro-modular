@@ -29,6 +29,8 @@ This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm
 
 -fix incorrect port labelling on LED side of board
 
-<b>v0.12 (first publication):</b> 
+<b>v0.12 (first source publication):</b> 
 
--use "spare" gates in input-side LED drivers for "belt and braces" buffering of 6N137 optocoupler outputs
+-use "spare" gates in input-side LED drivers for "belt and braces" buffering of 6N137 optocoupler outputs;
+
+-add 10u SMT cap on Vcc line near MCU
