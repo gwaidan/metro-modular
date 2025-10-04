@@ -31,4 +31,4 @@ This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm
 
 <b>v0.12 (first publication):</b> 
 
--use "spare" gates in input-side LED drivers to buffer 6N137 optocoupler outputs
+-use "spare" gates in input-side LED drivers for "belt and braces" buffering of 6N137 optocoupler outputs
