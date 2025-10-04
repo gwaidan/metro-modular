@@ -23,8 +23,6 @@ This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm
 
 -tidied-up board layout with ground planes both sides;
 
--cc-by-sa licensing with no restrictions on use
-
 <b>v0.11:</b> 
 
 -fix incorrect port labelling on LED side of board
@@ -33,4 +31,6 @@ This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm
 
 -use "spare" gates in input-side LED drivers for "belt and braces" buffering of 6N137 optocoupler outputs;
 
--add 10u SMT cap on Vcc line near MCU
+-add 10u SMT cap on Vcc line near MCU;
+
+-cc-by-sa licensing with no restrictions on use
