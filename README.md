@@ -4,4 +4,6 @@ This repository contains all Metro Modular's open source and shareware electroni
 
 Now featuring my updates of the classic Mutable Instruments Ambika, Shruthi and Anushri designs.
 
+All files are provided as-is, without support or warranty.
+
 Enjoy!
