@@ -1,5 +1,7 @@
 # ColonelMIDI 5x5 Port USB-MIDI Interface
 
+![3d render of completed ColonelMIDI v0.12](ColonelMIDI_v012.jpg)
+
 This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm5x5x5>) multiport implementation of the [Ploytec GM5](https://www.usb-audio.com/gm5/) reference board, based around an Atmel AT90USB processor with preloaded custom firmware. Although it uses the published mechanical dimensions of the GM5x5x5, it is effectively a new circuit design that improves in many respects on both the Ploytec reference design and the GM5x5x5, with care taken to return to datasheets to ensure that part values are compatible with specifications.
 
 
