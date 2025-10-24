@@ -7,6 +7,8 @@ This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm
 
 <b>v0.1 (initial):</b> Main changes over gm5x5x5 and reference board are: 
 
+-grouping MIDI ports by IN or OUT orientation rather than pairing by port number, as controllers and sound modules are more likely to be separate nowadays
+
 -usage of Kicad v9 rather than the deprecated EAGLE format;
 
 -reverse voltage proection Schottky diode on Vcc;
