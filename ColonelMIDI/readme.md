@@ -7,17 +7,19 @@ This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm
 
 <b>v0.1 (initial):</b> Main changes over gm5x5x5 and reference board are: 
 
--grouping MIDI ports by IN or OUT orientation rather than pairing by port number, as controllers and sound modules are more likely to be separate nowadays
+-grouping MIDI ports by IN or OUT orientation rather than pairing by port number, as controllers and sound modules are more likely to be separate nowadays;
+
+-reversing order of MIDI ports so they are in ascending order from left to right when LED side is to front;
 
 -usage of Kicad v9 rather than the deprecated EAGLE format;
 
--reverse voltage proection Schottky diode on Vcc;
+-reverse voltage protection Schottky diode across power lines;
 
--zener diodes to protect USB data lines against over/reverse voltage transients; 
+-3.6V zener diodes to protect USB data lines against over/reverse voltage transients; 
 
 -modern SOT236 high-current CMOS schmitt triggers for LED driving and signal buffering; 
 
--LEDs located directly in front of the ports they indicate; 
+-all LEDs located directly in front of the ports they indicate; 
 
 -updated the MIDI jack connections in line with the 2014 CA-033 revision of the MIDI 1.0 standard, by grounding the shell connections on output jacks, and connecting the shell and ground at the input jack to ground via 100n capacitors that remove RFI but block audio ground loop hum;
 
