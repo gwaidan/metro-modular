@@ -29,7 +29,11 @@ This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm
 
 -input optoisolation circuitry based around 6N137 rather than 6N138;
 
--GM5x5x5 option for external power and guidance for reducing the number of ports are not included, as this is intended as a standalone "full-function" device rather than an embedded submodule;
+-GM5x5x5 options for external power, pin header duplication of MIDI jacks, and guidance for configuring the number of ports are not included, as this is intended as a standalone "full-function" device rather than an embedded submodule;
+
+-removing the header for in-situ EPROM flashing, as this can be done off-board;
+
+-adding a limit resistor and connector for an external reset switch;
 
 -adding a location marker to keep JLCPCB production batch numbers hidden out of sight;
 
