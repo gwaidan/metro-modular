@@ -49,4 +49,4 @@ This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm
 
 -add 10u SMT cap on Vcc line near MCU;
 
--cc-by-sa licensing with no restrictions on use
+-cc-by-sa licensing
