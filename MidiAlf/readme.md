@@ -1,5 +1,7 @@
 # MidiAlf
 
+[MIDIAlf v0.3j circuit board render](alf_v03.png)
+
 This is forked from the MidiAlf v0.2 files originally published at https://midisizer.com/midialf/
 
 The original used Mutable Intruments hardware design elements to create a neat desktop MIDI pattern sequencer with storage memory, that could be expanded with CV outputs. In line with the original, it is released under a Creative Commons cc-by-sa license.
