@@ -11,7 +11,7 @@ This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm
 
 -reversing order of MIDI ports so they are in ascending order from left to right when LED side is to front;
 
--usage of Kicad v9 rather than the deprecated EAGLE format;
+-done in Kicad v9 rather than EAGLE!;
 
 -reverse voltage protection Schottky diode across power lines;
 
@@ -27,7 +27,7 @@ This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm
 
 -6-pin AVRISP port added for those who might want to program their own firmware from scratch on a blank chip;
 
--input optoisolation circuitry based around 6N137 rather than 6N138;
+-input optoisolation circuitry based around internally buffered 6N137s rather than Dodgy Darlington 6N138s;
 
 -GM5x5x5 options for external power, pin header duplication of MIDI jacks, and guidance for configuring the number of ports are not included, as this is intended as a standalone "full-function" device rather than an embedded submodule;
 
