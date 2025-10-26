@@ -2,7 +2,7 @@
 
 ![3d render of completed ColonelMIDI v0.12](ColonelMIDI_v012.jpg)
 
-This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm5x5x5>) multiport implementation of the [Ploytec GM5](https://www.usb-audio.com/gm5/) reference board, based around an Atmel AT90USB processor with preloaded custom firmware. Although it uses the published mechanical dimensions of the GM5x5x5, it is effectively a new circuit design that improves in many respects on both the Ploytec reference design and the GM5x5x5, with care taken to return to datasheets to ensure that part values are compatible with specifications.
+This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm5x5x5>) multiport implementation of the [Ploytec GM5](https://www.usb-audio.com/gm5/) reference board, based around an Atmel AT90USB processor with preloaded custom firmware. Although it uses the published mechanical dimensions of the GM5x5x5, it is effectively a new circuit design that improves on both the Ploytec reference design and the GM5x5x5, with care taken to return to datasheets to ensure that part values are compatible with specifications.
 
 
 <b>v0.1 (initial):</b> Main changes over gm5x5x5 and reference board are: 
@@ -17,7 +17,7 @@ This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm
 
 -3.6V zener diodes to protect USB data lines against over/reverse voltage transients; 
 
--modern SOT236 high-current CMOS schmitt triggers for LED driving and signal buffering; 
+-modern SOT236 high-current CMOS schmitt triggers for LED driving and signal buffering (good soldering practice/warmup for the GM5 chip...); 
 
 -all LEDs located directly in front of the ports they indicate; 
 
