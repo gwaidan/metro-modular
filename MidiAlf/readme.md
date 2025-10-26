@@ -1,6 +1,6 @@
 # MidiAlf
 
-[MIDIAlf v0.3j circuit board render](alf_v03.png)
+![MIDIAlf v0.3j circuit board render](alf_v03.png)
 
 This is forked from the MidiAlf v0.2 files originally published at https://midisizer.com/midialf/
 
