@@ -31,7 +31,7 @@ This is an updated take on the [nILS GM5x5x5](http://www.midibox.org/dokuwiki/gm
 
 -GM5x5x5 options for external power, pin header duplication of MIDI jacks, and guidance for configuring the number of ports are not included, as this is intended as a standalone "full-function" device rather than an embedded submodule;
 
--removing the header for in-situ EPROM flashing, as this can be done off-board;
+-removing the header for in-situ EEPROM flashing, as anyone advanced enough to do this (especially with the [MIDIBOX Utility](https://github.com/midibox/mios8/tree/98251ece080990915ee04ef88805124c7413f9d5/mbhp/mbhp_usb_gm5_eeprom)) can rig up a square inch of perfboard with an IC socket, a header, and 2 resistors;
 
 -adding a limit resistor and connector for an external reset switch;
 
